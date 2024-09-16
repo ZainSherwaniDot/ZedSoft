@@ -33,11 +33,11 @@ body {
 }
 .door {
     position: absolute;
-    background-color: brown;
+    background-color: blue;
 }
 .furniture {
     position: absolute;
-    background-color: mediumslateblue;
+    background-color: orange;
     cursor: pointer;
 }
 #tooltip {

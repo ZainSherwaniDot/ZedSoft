@@ -11,8 +11,6 @@ let scale = 1;
 
 let floorplanData = null;
 
-let countuh = 0
-
 fileInput.addEventListener('change', function(e) {
     const file = e.target.files[0];
     const reader = new FileReader();
@@ -40,22 +38,6 @@ function renderFloorplan() {
         regionElement.style.top = `${y}px`;
         regionElement.style.width = `${width}px`;
         regionElement.style.height = `${height}px`;
-        if (countuh===0){
-            regionElement.style.backgroundColor = "red";
-        }
-        if (countuh===1){
-            regionElement.style.backgroundColor = "green";
-        }
-        if (countuh===2){
-            regionElement.style.backgroundColor = "blue";
-        }
-        if (countuh===3){
-            regionElement.style.backgroundColor = "pink";
-        }
-        if (countuh===4){
-            regionElement.style.backgroundColor = "purple"; 
-        }
-        countuh++;
         floorplan.appendChild(regionElement);
     });
 
