@@ -1,5 +1,5 @@
-GitHub repo:
+**GitHub repo:**
 https://github.com/ZainSherwaniDot/ZedSoft
 
-Deployed at:
-ZedSoft.ZainSherwani.com
+**Deployed at:**
+https://ZedSoft.ZainSherwani.com
